@@ -70,7 +70,7 @@ def cifar10_train(model):
 
 def cifar10_predict(model, image_file):
   labels = ["airplane", "automobile", "bird", "cat",
-    "deer", "dog", "frog", "horse", "ship"]
+    "deer", "dog", "frog", "horse", "ship", "truck"]
 
   img = keras.preprocessing.image.load_img(image_file, target_size=(32, 32))
   img_arr = np.expand_dims(img, axis=0) / 255.0
