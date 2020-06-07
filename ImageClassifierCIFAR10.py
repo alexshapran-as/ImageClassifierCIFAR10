@@ -82,7 +82,7 @@ def main():
         "---------------------------------\n"
         "Image classifier based on CIFAR10\n"
         "---------------------------------\n"
-        "Supported classes: airplane, automobile, bird, cat, deer, dog, frog, horse, ship\n"
+        "Supported classes: airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck\n"
         "Choose:\n"
         "[1]: create and train model\n"
         "[2]: classify image\n"
